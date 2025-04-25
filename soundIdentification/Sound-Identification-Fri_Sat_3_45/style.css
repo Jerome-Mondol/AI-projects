@@ -1,0 +1,49 @@
+body {
+    background: snow;
+    font-family: cursive;
+}
+
+.header_div {
+    background: snpw;
+    color: palevioletred;
+}
+
+.header_div p{
+    color: crimson;
+    font-size: 20px;
+}
+
+.clap{
+    color: purple;
+}
+.snap {
+    color: orange;
+}
+
+.bell {
+    color: green;
+}
+
+.control {
+    font-style: italic;
+}
+.start_btn {
+    background: lightblue;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.footer_div {
+    margin: 30px 0 20px 0;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" integrity="sha512-AQMSn1qO6KN85GOfvH6BWJk46LhlvepblftLHzAv1cdIyTWPBKHX+r+NOXVVw6+XQpeW4LJk/GTmoP48FLvblQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <title>Voice Control Selfie App</title>
+</head>
+<body>
+
+
+    <div class="container">
+        <center>
+            <a href="" id="link" download="Selfie.png"></a>
+            <h1>Voice controlled Selfie app</h1>
+            <p>Say <b>"My selfie please"</b> "</p>
+            <textarea cols="50" name="" id="textBox"></textarea>
+            <br>
+            <button class="btn btn-success" id="startBtn" >Start</button>
+            <h2>Webcam view</h2>
+            <div class="border border-3 border-success" id="camera" style="width:450px;height:350px"></div>
+            <h3>Your Selfie</h3>
+
+            <div id="result"></div>
+            </center>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
